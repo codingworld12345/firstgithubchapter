@@ -1,38 +1,4 @@
-
-# Create a library class
-# display book
-# lend book - (who owns the book if not present)
-# add book
-# return book
-
-# HarryLibrary = Library(listofbooks, library_name)
-
-
-#dictionary (books-nameofperson)
-
-# create a main function and run an infinite while loop asking
-# users for their input
-# class library:
-#     def lend_book():
-#         def display_func(self):
-#         self.hindi=5
-#         self.english=4
-#         self.math=6
-
-
-#     list_of_books=['hindi','english','math']
-#     # def display_func():
-#     user_input=input('enter book name\n')
-#     for i in list_of_books:
-#         if user_input==i:
-#             print('available')
-    
-#     else:
-#         # print('this book is not avalable')
-#         pass
-
-
-
+#welcome to aapki apni library
 class library:
     def __init__(self,book_list,library_name):
         self.booklist=book_list
@@ -93,6 +59,7 @@ while True:
         goyal.display()
     else:
         print('not valid input')
+        print('Thank you for using aapki apni library')
 
 
 
